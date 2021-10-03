@@ -62,6 +62,6 @@ jobs:
         with:
           # Path to the manifest files which will be used for deployment.
           manifests: |
-            ./src/deployment.yaml
+            ./ConversaoPeso.Web/deployment.yaml
           # Fully qualified resource URL of the image(s) to be used for substitutions on the manifest files Example: contosodemo.azurecr.io/helloworld:test
           images: mestre101/conversao-peso:${{github.run_number}}
